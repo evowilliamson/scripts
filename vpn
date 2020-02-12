@@ -1,0 +1,3 @@
+ps -edaf | grep "openfortivpn\.conf" | awk '{print $2} ' | while read line; do sudo kill -9 $line; done &
+sudo openfortivpn -c /home/ivo/openfortivpn.conf --pppd-log=/tmp/vpn.out.txt
+

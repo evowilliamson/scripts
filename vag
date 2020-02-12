@@ -1,0 +1,4 @@
+a=$(pwd)
+cd $HOME/vz/smtvagrant
+vagrant up
+cd $a
