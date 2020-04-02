@@ -1,0 +1,3 @@
+SIZE=$1
+sudo mkdir /mnt/ramdisk
+sudo mount -t tmpfs -o rw,size=${SIZE}G tmpfs /mnt/ramdisk

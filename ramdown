@@ -1,0 +1,2 @@
+sudo umount /mnt/ramdisk
+sudo rm -Rf /mnt/ramdisk
