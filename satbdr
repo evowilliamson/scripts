@@ -1,4 +1,2 @@
 cd $HOME/vz/smtvagrant
-echo     fsdfksdlkfdls;kfsdf
-pwd
 vagrant ssh -c satb-data-reset
