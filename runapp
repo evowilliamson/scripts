@@ -1,0 +1,14 @@
+current_dir=`pwd`
+project=$1
+
+if [ "${project}" == 'shx' ]; then
+    shxdr &
+    project_dir='statehistory-x'
+else
+    project_dir='schade-ziggo'
+fi
+echo $project_dir
+runbe.sh $project_dir &
+runfe.sh $project_dir &
+cd $current_dir
+
