@@ -1,8 +1,10 @@
 current_dir=`pwd`
 project=$1
 
+killapp
+sleep 1
+
 if [ "${project}" == 'shx' ]; then
-    shxdr &
     project_dir='statehistory-x'
 else
     project_dir='schade-ziggo'
@@ -10,5 +12,6 @@ fi
 echo $project_dir
 runbe.sh $project_dir &
 runfe.sh $project_dir &
+sleep 10
+google-chrome http://${project}.smtvagrant.ilionx.cloud/
 cd $current_dir
-

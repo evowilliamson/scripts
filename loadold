@@ -1,0 +1,5 @@
+current_dir=`pwd`
+cd /home/ivo/vz/smtvagrant
+vagrant ssh -c 'shx-data-load-old "1, 2, 59"'
+cd $current_dir
+
