@@ -1,0 +1,11 @@
+project_dir=`pwd | awk 'BEGIN { FS="/" } { print $5 }'`
+echo ${project_dir}
+if [ "${project_dir}" == 'statehistory-x' ]; then
+    project='SHX'
+else
+    project='SZ'
+fi
+id=$1
+git checkout features/${project}-${id}
+git pull
+git branch
