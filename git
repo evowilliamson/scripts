@@ -1,12 +1,13 @@
 CURRENT_DIR=`pwd`
 USER_NAME=`/usr/bin/git config --list | grep user.name | awk 'BEGIN { FS="=" } { print $2 }'`
-if !(([[ "$CURRENT_DIR" == *"$HOME/projects"*  ]] && [[ "$USER_NAME" == "evowilliamson"* ]]) ||
-   ([[ "$CURRENT_DIR" == *"$HOME/vz"*  ]] && [[ "$USER_NAME" == "willemsi"* ]]))
+if ([[ "$CURRENT_DIR" == *"$HOME/projects"*  ]] && [[ "$USER_NAME" == "evowilliamson"* ]]) ||
+   ([[ "$CURRENT_DIR" == *"$HOME/vz"*  ]] && [[ "$USER_NAME" == "willemsi"* ]])
 then
+    /usr/bin/git "$@"
+else
     echo "User name: $USER_NAME"
     echo "Current directory: $CURRENT_DIR"
     echo "**************************************************************************************"
     echo " Wrong directory / git private/work setting"
     echo "**************************************************************************************"
 fi
-
