@@ -1,0 +1,5 @@
+story=`git branch | grep "*" | awk 'BEGIN { FS="/" } { print $2 }'`
+message=$@
+git add .
+git commit -m "${story}: ${message}"
+git push

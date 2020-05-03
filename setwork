@@ -1,0 +1,2 @@
+cp ~/.gitconfig_work ~/.gitconfig
+/usr/bin/git config --list

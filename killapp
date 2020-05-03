@@ -1,2 +1,2 @@
 lsof -i :4200 | grep 4200 | awk '{ print $2 }' | while read line; do sudo kill -9 $line; done &
-ps -edaf | grep appnam | grep bootRun| awk '{print $2}' | while read line; do sudo kill -9 $line; done &
+ps -edaf | grep 'appnam\|gradle' | grep 'bootRun\|headless' | awk '{print $2}' | while read line; do sudo kill -9 $line; done &
