@@ -1,2 +1,2 @@
 cp ~/.gitconfig_work ~/.gitconfig
-/usr/bin/git config --list
+/usr/bin/git config --list | grep "user.email"

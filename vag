@@ -1,4 +1,16 @@
+wait_for_internet.sh
 a=$(pwd)
 cd $HOME/vz/smtvagrant
 vagrant up
+
+if [ $? -eq 0 ]
+then
+    echo "Vagrant up."
+    exit 0
+else
+    echo "Vagrant error, not up."
+    exit 1
+fi
+
+play_sound.sh 0.005 5
 cd $a

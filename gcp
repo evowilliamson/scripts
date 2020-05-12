@@ -8,4 +8,4 @@ fi
 id=$1
 git checkout features/${project}-${id}
 git pull
-git branch
+git branch | grep "*" | sed "s/\* //"
