@@ -1,24 +1,22 @@
 wait_for_internet.sh
-ps -edaf | grep "openfortivpn\.conf" | awk '{print $2} ' | while read line; do sudo kill -9 $line; done
-sudo openfortivpn -c /home/ivo/vz/scripts/openfortivpn.conf --pppd-log=/tmp/vpn.out.txt &
-
-sleep 1
-i=0
 while true; do 
-    sleep 1
-    LAST_LINE=`tail -1 /tmp/vpn.out.txt`
-    echo $LAST_LINE
-    if [[ "${LAST_LINE}" == *"status = 0x0"* ]]
+    sudo openfortivpn -c /home/ivo/vz/scripts/openfortivpn.conf --pppd-log=/tmp/vpn.out.txt &
+    sleep 10
+    echo "Check VPN Connection"
+    curl http://gitlab.ahdnag05:6002/its/statehistory-x >/dev/null 2>&1
+    CHECK=$?
+    if [[ $CHECK -eq 0 ]]
     then
         echo "VPN opened."
         play_sound.sh 0.005 5
-        exit 0
     fi
-    if [ $i -eq 10 ]
-    then
-        echo "VPN not opened."
-        exit 1
-    fi
-    i=$((i+1))
+    while [ $CHECK -eq 0 ]; do
+        sleep 10
+        curl http://gitlab.ahdnag05:6002/its/statehistory-x >/dev/null 2>&1
+        CHECK=$?
+    done
+
+    echo "VPN error, attemp to restart"
+    vpnkill
 done
 
