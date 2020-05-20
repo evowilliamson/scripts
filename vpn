@@ -1,13 +1,13 @@
 wait_for_internet.sh
 while true; do 
     sudo openfortivpn -c /home/ivo/vz/scripts/openfortivpn.conf --pppd-log=/tmp/vpn.out.txt &
-    sleep 10
+    sleep 20
     echo "Check VPN Connection"
     curl http://gitlab.ahdnag05:6002/its/statehistory-x >/dev/null 2>&1
     CHECK=$?
     if [[ $CHECK -eq 0 ]]
     then
-        echo "VPN opened."
+        echo "VPN opened"
         play_sound.sh 0.005 5
     fi
     while [ $CHECK -eq 0 ]; do
