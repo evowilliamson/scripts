@@ -1,0 +1,1 @@
+ps -edaf | grep gnome-terminal-server | grep lib | awk '{print $2}' | while read line; do sudo kill -9 $line; done &

@@ -1,0 +1,4 @@
+ps -edaf | grep "openfortivpn\.conf" | awk '{print $2} ' | while read line; do sudo kill -9 $line; done
+echo "VPN killed."
+ps -edaf | grep "openfortivpn\.conf" | awk '{print $2} '
+play_sound.sh 0.03 7 1.5

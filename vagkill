@@ -1,0 +1,5 @@
+CURRENT_DIR=`pwd`
+cd $HOME/vz/smtvagrant
+vagrant halt
+play_sound.sh 0.03 7 1.5
+cd $CURRENT_DIR

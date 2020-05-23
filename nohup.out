@@ -1,0 +1,202 @@
+Connected.
+INFO:   Connected to gateway.
+INFO:   Authenticated.
+INFO:   Remote gateway has allocated a VPN.
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   negotiation complete
+INFO:   Interface ppp0 is UP.
+INFO:   Setting new routes...
+WARN:   Route to vpn server exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+INFO:   Adding VPN nameservers...
+INFO:   Tunnel is up and running.
+Check VPN Connection
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to gitlab.ahdnag05 port 6002: Connection refused
+/home/ivo/projects/scripts/vpn: 8: [[: not found
+VPN error, attemp to restart
+VPN killed.
+/home/ivo/projects/scripts/play_sound.sh: 5: [: 1.5: unexpected operator
+INFO:   Connected to gateway.
+INFO:   Authenticated.
+INFO:   Remote gateway has allocated a VPN.
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   negotiation complete
+INFO:   Interface ppp0 is UP.
+INFO:   Setting new routes...
+WARN:   Route to vpn server exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+INFO:   Adding VPN nameservers...
+INFO:   Tunnel is up and running.
+Check VPN Connection
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to gitlab.ahdnag05 port 6002: Connection refused
+/home/ivo/projects/scripts/vpn: 8: [[: not found
+VPN error, attemp to restart
+VPN killed.
+/home/ivo/projects/scripts/play_sound.sh: 5: [: 1.5: unexpected operator
+INFO:   Connected to gateway.
+INFO:   Authenticated.
+INFO:   Remote gateway has allocated a VPN.
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   negotiation complete
+INFO:   Interface ppp0 is UP.
+INFO:   Setting new routes...
+WARN:   Route to vpn server exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+INFO:   Adding VPN nameservers...
+INFO:   Tunnel is up and running.
+Check VPN Connection
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to gitlab.ahdnag05 port 6002: Connection refused
+/home/ivo/projects/scripts/vpn: 8: [[: not found
+VPN error, attemp to restart
+VPN killed.
+/home/ivo/projects/scripts/play_sound.sh: 5: [: 1.5: unexpected operator
+INFO:   Connected to gateway.
+INFO:   Authenticated.
+INFO:   Remote gateway has allocated a VPN.
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   negotiation complete
+INFO:   Interface ppp0 is UP.
+INFO:   Setting new routes...
+WARN:   Route to vpn server exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+INFO:   Adding VPN nameservers...
+INFO:   Tunnel is up and running.
+Check VPN Connection
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to gitlab.ahdnag05 port 6002: Connection refused
+/home/ivo/projects/scripts/vpn: 8: [[: not found
+VPN error, attemp to restart
+VPN killed.
+/home/ivo/projects/scripts/play_sound.sh: 5: [: 1.5: unexpected operator
+INFO:   Connected to gateway.
+INFO:   Authenticated.
+INFO:   Remote gateway has allocated a VPN.
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   Got addresses: [192.168.200.6], ns [192.168.0.10, 192.168.1.19]
+INFO:   negotiation complete
+INFO:   negotiation complete
+INFO:   Interface ppp0 is UP.
+INFO:   Setting new routes...
+WARN:   Route to vpn server exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+WARN:   Route to gateway exists already.
+INFO:   Adding VPN nameservers...
+INFO:   Tunnel is up and running.
