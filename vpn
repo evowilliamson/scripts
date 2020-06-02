@@ -1,6 +1,6 @@
 wait_for_internet.sh
 while true; do 
-    sudo openfortivpn -c /home/ivo/vz/scripts/openfortivpn.conf --pppd-log=/tmp/vpn.out.txt &
+    sudo openfortivpn -c /home/ivo/projects/scripts/openfortivpn.conf --pppd-log=/tmp/vpn.out.txt &
     sleep 20
     echo "Check VPN Connection"
     curl http://gitlab.ahdnag05:6002/its/statehistory-x >/dev/null 2>&1
