@@ -1,0 +1,12 @@
+story=`git branch | grep "*" | awk 'BEGIN { FS="/" } { print $2 }'`
+
+if [ "${story}" == '' ]; then
+    echo "Not a feature branch"
+    exit 1
+fi
+
+git checkout dev
+git pull
+
+git checkout features/${story}
+git merge dev
