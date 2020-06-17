@@ -4,6 +4,7 @@ project=$1
 killapp
 sleep 1
 
+echo $project
 if [ "${project}" == 'shx' ]; then
     project_dir='statehistory-x'
 else
